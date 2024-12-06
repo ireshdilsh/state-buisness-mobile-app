@@ -1,11 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import Landing from './pages/Landing'
+import Login from './pages/Login'
 
 const Main = () => {
   return (
     <View>
-      <Landing/>
+      <Login/>
     </View>
   )
 }
