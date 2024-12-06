@@ -1,13 +1,13 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import Main from './Main'
+import Landing from './pages/Landing'
 
-const App = () => {
+const Main = () => {
   return (
     <View>
-      <Main/>
+      <Landing/>
     </View>
   )
 }
 
-export default App
+export default Main
