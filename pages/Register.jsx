@@ -4,15 +4,15 @@ import FontAwesome from '@expo/vector-icons/FontAwesome';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
 const continueWithFacebook = () => {
-
+    console.log("Clik the continue with facebook button...")
 }
 
 const continueWithGoogle = () => {
-
+    console.log("Clik the continue with google button...");
 }
 
 const gotoLoginPage = () => {
-
+    console.log("Clik the goto Login page button...");
 }
 
 const Register = () => {
@@ -81,7 +81,7 @@ const Register = () => {
 
         <View style = {{marginTop:80,display:'flex',justifyContent:'space-between',alignItems:'center'}}>
         <Text style = {{fontFamily:'Gabarito',fontSize:15,color:'#9ca3af'}}>If you already haven an account ?</Text>
-        <Pressable style = {{display:'flex',justifyContent:'center',alignItems:'center'}} onPress={gotoLoginPage}><Text style = {{fontSize:15,fontFamily:'Gabarito',textAlign:'center',color:'#1d4ed8'}}> Goto Login</Text></Pressable>
+        <Pressable style = {{marginTop:3,display:'flex',justifyContent:'center',alignItems:'center'}} onPress={gotoLoginPage}><Text style = {{fontSize:15,fontFamily:'Gabarito',textAlign:'center',color:'#1d4ed8'}}> Goto Login</Text></Pressable>
         </View>
     </View>
   )

@@ -83,7 +83,7 @@ const Login = () => {
 
         <View style = {{marginTop:80,display:'flex',justifyContent:'space-between',alignItems:'center'}}>
         <Text style = {{fontFamily:'Gabarito',fontSize:15,color:'#9ca3af'}}>If you haven't an account ?</Text>
-        <Pressable style = {{display:'flex',justifyContent:'center',alignItems:'center'}} onPress={gotoRegisterPage}><Text style = {{fontSize:15,fontFamily:'Gabarito',textAlign:'center',color:'#1d4ed8'}}> Create Account</Text></Pressable>
+        <Pressable style = {{marginTop:3,display:'flex',justifyContent:'center',alignItems:'center'}} onPress={gotoRegisterPage}><Text style = {{fontSize:15,fontFamily:'Gabarito',textAlign:'center',color:'#1d4ed8'}}> Create Account</Text></Pressable>
         </View>
 
     </View>
